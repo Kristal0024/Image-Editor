@@ -59,12 +59,14 @@ main section .top{
 main section .bottom{
 width: 100%;
 padding: var(--padding-2xl);
-border: 2px solid red;
+/* border: 2px solid red; */
+background-color: var(--bg-secondary-color);
 aspect-ratio: 5/3;
 border-radius: var(--border-radius-xl);
 display: flex;
 align-items: center;
 justify-content: center;
+opacity: 0.6;
 }
 main section .bottom .placeholder{
     display: flex;
@@ -91,6 +93,7 @@ main section .right{
 main section .right .filters{
     display: flex;
     gap: var(--gutter-md);
+    flex-direction: column;
 }
 main section .right .filter input{
 width: 100%;
